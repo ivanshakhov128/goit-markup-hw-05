@@ -651,6 +651,7 @@ body {
 .checkbox-label {
   font-weight: 400;
   font-size: 12px;
+  display: inline-block;
 
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -669,6 +670,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .original-checkbox:checked + .checkbox-label .custom-checkbox {
@@ -679,6 +681,7 @@ body {
 
 .privacy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .send-btn {
